@@ -12,6 +12,7 @@
 		9906852F23FE4F6400D659FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9906852E23FE4F6400D659FD /* Assets.xcassets */; };
 		9906853223FE4F6400D659FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9906853023FE4F6400D659FD /* LaunchScreen.storyboard */; };
 		9906853C23FE519A00D659FD /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9906853B23FE519A00D659FD /* MyCollectionViewController.swift */; };
+		99542E1B23FF2F57009E744A /* ArtCoverCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99542E1A23FF2F57009E744A /* ArtCoverCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		9906853123FE4F6400D659FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9906853323FE4F6400D659FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9906853B23FE519A00D659FD /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		99542E1A23FF2F57009E744A /* ArtCoverCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtCoverCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				9906852723FE4F6100D659FD /* AppDelegate.swift */,
-				9906852B23FE4F6100D659FD /* Main.storyboard */,
 				9906853B23FE519A00D659FD /* MyCollectionViewController.swift */,
+				99542E1A23FF2F57009E744A /* ArtCoverCell.swift */,
+				9906852B23FE4F6100D659FD /* Main.storyboard */,
 				9906852E23FE4F6400D659FD /* Assets.xcassets */,
 				9906853023FE4F6400D659FD /* LaunchScreen.storyboard */,
 				9906853323FE4F6400D659FD /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9906853C23FE519A00D659FD /* MyCollectionViewController.swift in Sources */,
+				99542E1B23FF2F57009E744A /* ArtCoverCell.swift in Sources */,
 				9906852823FE4F6100D659FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = shoxruz.MyCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = shoxruz.MyCollectionView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
