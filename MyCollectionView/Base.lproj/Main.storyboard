@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--My Music-->
+        <!--My Menu-->
         <scene sceneID="V8U-Pf-lUv">
             <objects>
                 <collectionViewController id="3gh-qU-hct" customClass="MyCollectionViewController" customModule="MyCollectionView" customModuleProvider="target" sceneMemberID="viewController">
@@ -52,7 +52,7 @@
                             <outlet property="delegate" destination="3gh-qU-hct" id="xTG-gT-hv4"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" title="My Music" id="Fbr-Ut-tN4"/>
+                    <navigationItem key="navigationItem" title="My Menu" id="Fbr-Ut-tN4"/>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hrZ-zA-k17" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

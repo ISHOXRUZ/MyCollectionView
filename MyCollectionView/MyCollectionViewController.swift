@@ -12,7 +12,7 @@ private let reuseIdentifier = "ArtCover"
 
 class MyCollectionViewController: UICollectionViewController {
     
-    let imageNameArray = ["balkan.jpg", "Bochka.jpg", "Bonsai", "dastarhan.jpg", "elu.jpg", "indokitay.jpg", "istorii", "klassik.jpg", "love.jpg", "morris.jpg", "ogonek.jpg", "respublika.jpg", "shok.jpg", "speakeasy.jpg", "x.o.jpg"
+    let imageNameArray = ["balkan.jpg", "bochka.jpg", "bonsai.jpg", "dastarhan.jpg", "elu.jpg", "indokitay.jpg", "istorii", "klassik.jpg", "love.jpg", "morris.jpg", "ogonek.jpg", "respublika.jpg", "shok.jpg", "speakeasy.jpg", "x.o.jpg"
     ]
     
     
